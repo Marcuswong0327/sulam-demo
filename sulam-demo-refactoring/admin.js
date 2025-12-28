@@ -15,14 +15,17 @@ import {
   addDoc
 } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
+import bwmMapImg from './assets/bwm_map3.jpg';
+import youIcon from './assets/you_icon.jpg';
+
 const firebaseConfig = {
-  apiKey: "AIzaSyA093rrUBlUG4tDnGUdyql0-c7m-E2DDHw",
-  authDomain: "sulam-project-map.firebaseapp.com",
-  projectId: "sulam-project-map",
-  storageBucket: "sulam-project-map.firebasestorage.app",
-  messagingSenderId: "402597128748",
-  appId: "1:402597128748:web:f73f4b44e44fcb55bfff89",
-  measurementId: "G-SDHPJ5G431"
+  apiKey: apiKey,
+  authDomain: authDomain,
+  projectId: projectId,
+  storageBucket: storageBucket,
+  messagingSenderId: messagingSenderId,
+  appId: appId,
+  measurementId: measurementId
 };
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
