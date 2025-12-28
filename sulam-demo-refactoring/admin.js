@@ -54,7 +54,7 @@ const cancelGlobalBtn = document.getElementById('cancelGlobalBtn');
 const statusMsg = document.getElementById('statusMsg');
 
 // ---------------- MAP ----------------
-const IMAGE_FILENAME = "bwm_map3.jpg";
+const IMAGE_FILENAME = bwmMapImg;
 const IMG_W = 1530;
 const IMG_H = 1050;
 const bounds = [[0, 0], [IMG_H, IMG_W]];
